@@ -67,7 +67,7 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: white;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
@@ -178,5 +178,25 @@ input {
     color: $state-danger-text;
   }
 }
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
+
+
+
+
+
 
 
