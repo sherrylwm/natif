@@ -1,28 +1,57 @@
-== README
+natif
+Team cthad
+Thaddeus L., Sherry L.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+***
 
-Things you may want to cover:
+Link to Temporary natif Site (Uncompleted)
+www.natif.heroku.com 
 
-* Ruby version
+Link to Video 
+www.youtube.com 
 
-* System dependencies
+Project Purpose
+natif is a travel application to connect tourists with locals. It is a fusion between www.airbnb.com, www.couchsurfing.org, and www.travbuddy.com. It will be free for both tourist and locals and no charges are expected to be incurred for any services on either side. natif aims to promote genuine bonds between people around the world.
 
-* Configuration
+Scope of Project
+The scope of the project might be reduced due to time and limited manpower, to be confirmed by milestone 3. See below for further details, features will be bare minimal, at best a Minimally Viable Product.
 
-* Database creation
+The features implemented currently just serves to create, authenticate, and maintain a list of users. It currently does not fulfil any user stories.
 
-* Database initialization
+Website Built with
+Model-View-Controller	- Ruby on Rails (Back-end)
+Database 			- PostgreSQL 
+Server 				- Heroku (www.heroku.com) 
+Encryption			- bcrypt (http://bcrypt.sourceforge.net/) 
+Mac Downloader 		- brew.sh (www.brew.sh) 
+Profile Pictures		- Gravatar (www.gravatar.com) 
+Front-end			- HTML5, CSS3, Bootstrap, Sass
+Version Control		- GitHub (https://github.com/cthad/natif)
 
-* How to run the test suite
+Features Implemented So Far
+Email activation
+Sign up
+Admin delete users
+User login/logout
+Pagination of pages
+Seeding of database
+Using Gravatar to get profile pictures		- www.gravatar.com 
+Remembering user sessions
+Using of GitHub to version control code	- https://github.com/cthad/natif 
+Encryption of password
 
-* Services (job queues, cache servers, search engines, etc.)
+Features Not Going to be Implemented Despite Built
+Email sending - not going to get a mail plan but if you want, some websites you can do this include www.mailchimp.com, www.sendgrid.com
+Image upload - requires cloud-based server on AWS EC2, technical vulnerabilities from GitHub
 
-* Deployment instructions
+User Stories Part 1 (On natif as a Platform)
+As a traveller, I want to interact with locals to get an authentic experience of the local’s lifestyle and culture
+As a local, I want to bring travellers around without a fee because I want a genuine interaction and friendship and money hurts this friendship aspect
+As a local, I want to interact with travellers to learn more about their culture
+As a local, I want to interact with travellers to practise a new language that I may be learning right now e.g. English, Korean, Spanish
+As a local, I want to interact with travellers to show them the true beauty of my country 
+As a local, I want to interact with travellers to make friends from around the world
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+User Stories Part 2 (natif Features to be implemented)
+As a local/traveller, I want to be able to search for other users who are free to meet when I’m free
+As a local/traveller, I want to be able to see a map of where the other users are to better visualize their location
